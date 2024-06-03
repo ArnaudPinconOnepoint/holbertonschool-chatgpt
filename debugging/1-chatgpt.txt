@@ -1,0 +1,22 @@
+This is a python code to return the grade for student depending of its result.
+
+"""def graduate:
+    grade = ‘Unknown’
+    if mark < 50: 
+        grade = ‘Not yet successful’ 
+    elif mark >=50 and mark <= 60: 
+        grade = ‘Pass’ 
+    elif mark > 60 and mark <= 75: 
+        grade = ‘Credit’ 
+    elif mark > 75 and mark < 85: 
+        grade = ‘Distinction’ 
+    elif mark > 85: 
+        grade = ‘High Distinction’ 
+    else: 
+        grade = ‘Unknown’
+    return grade""". 
+
+In this code, there is an issue for specific value.
+Error: if mark = 85, the code returns the value 'Unknown'.
+Expected result: if mark = 85, the code returns the value 'Distinction'.
+Execute the code and fix the problem.
