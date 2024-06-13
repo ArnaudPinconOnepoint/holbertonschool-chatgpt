@@ -1,0 +1,35 @@
+Here is a code snippet 
+
+"""def graduate(mark):
+    grade = 'Unknown'
+    if mark < 50: 
+        grade = 'Not yet successful'
+    elif mark >= 50 and mark <= 60: 
+        grade = 'Pass'
+    elif mark > 60 and mark <= 75: 
+        grade = 'Credit'
+    elif mark > 75 and mark <= 85: 
+        grade = 'Distinction'
+    elif mark > 85: 
+        grade = 'High Distinction'
+    else: 
+        grade = 'Unknown'
+    return grade"""
+
+Refactor the code by applying the following changes:
+
+1- Modify the code so that it follows the PEP8 python style rules.
+
+Here is a summary of these rules to guide you
+
+- Indentation: Use 4 spaces per indentation level, no tabs.
+- Line Length: Limit lines to 79 characters.
+- Imports: Group into three categories (standard, third-party, local) and place them at the top of the file.
+- Naming: Use snake_case for functions and variables, CamelCase for classes, and uppercase with underscores for constants.
+- Spacing: Add spaces around operators and after commas.
+- Docstrings: Use docstrings to document functions, classes, and modules.
+- Comments: Write clear and useful comments.
+- Exceptions: Prefer specific exceptions over general ones.
+
+2- The code snippet must be wrapped in a function.
+3- The extracted code generates a ValueError if the mark is outside the range 0-100.
