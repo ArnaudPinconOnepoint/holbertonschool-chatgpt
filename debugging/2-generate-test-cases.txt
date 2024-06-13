@@ -1,0 +1,39 @@
+Here is a code snippet
+
+"""def graduate(mark):
+ """Determines the grade based on the mark.
+
+ Args:
+ mark (int): The mark obtained by the student.
+
+ Returns:
+ str: The grade corresponding to the mark.
+
+ Reasons:
+ ValueError: If the mark is outside the range 0-100.
+ """
+ if mark < 0 or mark > 100:
+ raise ValueError("Mark must be between 0 and 100")
+
+ if mark < 50:
+ grade = 'Not yet successful'
+ elif 50 <= mark <= 60:
+ grade = 'Pass'
+ elif 61 <= mark <= 75:
+ grade = 'Credit'
+ elif 76 <= mark <= 85:
+ grade = 'Distinction'
+ else:
+ grade = 'High Distinction'
+
+ return grade"""
+
+Adds all possible test cases to the code to check that the function works correctly.
+
+Reminder :
+
+When given input from 0 to 49, the function should return "Not yet successful."
+50-60 “Pass”
+61-75 “Credit”
+76 – 85 “Distinctions”
+86-100 “High distinction”

@@ -1,0 +1,42 @@
+Here is a code snippet 
+
+""" def graduate(mark):
+    """
+    Determine the grade based on the provided mark.
+
+    Parameters:
+    mark (int): The mark for which the grade needs to be determined.
+
+    Returns:
+    str: The grade corresponding to the mark.
+
+    Raises:
+    ValueError: If the mark is outside the range 0-100.
+    """
+    if mark < 0 or mark > 100:
+        raise ValueError("Mark must be between 0 and 100.")
+
+    if mark < 50:
+        grade = 'Not yet successful'
+    elif mark <= 60:
+        grade = 'Pass'
+    elif mark <= 75:
+        grade = 'Credit'
+    elif mark <= 85:
+        grade = 'Distinction'
+    else:
+        grade = 'High Distinction'
+
+    return grade
+ """, 
+ 
+Check that the function is documented correctly.
+
+Check if the documentation contains the following, and apply them if not.
+
+Function Description: A brief explanation of what the function does.
+Arguments: A list of the function's arguments, with a description of each argument including the expected type.
+Return value: A description of what the function returns, including the type of the return value.
+Exceptions: A list of exceptions raised by the function, if handled, with an explanation of when and why they might be raised.
+Examples: Examples of how to use the function, showing how to call the function with different arguments and what to expect in return.
+Additional Notes: Any additional relevant information about the feature, such as external dependencies, version-specific behaviors, etc.
